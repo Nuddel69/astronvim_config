@@ -248,6 +248,8 @@ local config = {
       { "mattn/emmet-vim" },
       { "yuezk/vim-js" },
       { "maxmellon/vim-jsx-pretty" },
+      { "lervag/vimtex" },
+      { "andweeb/presence.nvim" },
     },
     -- All other entries override the require("<key>").setup({...}) call for default plugins
     ["null-ls"] = function(config) -- overrides `require("null-ls").setup(config)`
